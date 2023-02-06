@@ -1,0 +1,81 @@
+{
+  "uuid": "104f4c28-59ba-45d4-a6d1-580b0a907ca8-tr-0-1001",
+  "historyId": "LsportsAutomation.Tests.QuarterBack.MarketsPageMainSearchTest.MainSearchByMarketName",
+  "fullName": "LsportsAutomation.Tests.QuarterBack.MarketsPageMainSearchTest.MainSearchByMarketName",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IGORF-LSPORTS"
+    },
+    {
+      "name": "package",
+      "value": "LsportsAutomation.Tests.QuarterBack"
+    },
+    {
+      "name": "testMethod",
+      "value": "MainSearchByMarketName"
+    },
+    {
+      "name": "testClass",
+      "value": "MarketsPageMainSearchTest"
+    },
+    {
+      "name": "tag",
+      "value": "Markets"
+    },
+    {
+      "name": "tag",
+      "value": "Quarter Back"
+    }
+  ],
+  "links": [],
+  "name": "Validate Main Search in Markets",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: <Element (id = 6d80ee2b-5ca7-4aa6-a542-f5d62e60bc56)>\r\n  But was:  < \"ID\", \"Market Name\", \"Bet Group\", \"Stage\" >\r\n",
+    "trace": "   at LsportsAutomation.Components.QuarterBack.PTableComponent.GetTableHeaderElements(List`1 headerElements) in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Components\\QuarterBack\\PTableComponent.cs:line 26\r\n   at LsportsAutomation.Tests.QuarterBack.MarketsPageMainSearchTest.MainSearchByMarketName() in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Tests\\QuarterBack\\MarketsPageMainSearchTest.cs:line 45\r\n"
+  },
+  "stage": "finished",
+  "description": "Validate Main Search in Markets",
+  "steps": [
+    {
+      "name": "MainSearchByMarketName",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: <Element (id = 6d80ee2b-5ca7-4aa6-a542-f5d62e60bc56)>\r\n  But was:  < \"ID\", \"Market Name\", \"Bet Group\", \"Stage\" >\r\n",
+        "trace": "   at LsportsAutomation.Components.QuarterBack.PTableComponent.GetTableHeaderElements(List`1 headerElements) in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Components\\QuarterBack\\PTableComponent.cs:line 26\r\n   at LsportsAutomation.Tests.QuarterBack.MarketsPageMainSearchTest.MainSearchByMarketName() in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Tests\\QuarterBack\\MarketsPageMainSearchTest.cs:line 45\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "MainSearchByMarketName_screenshot_638109553237257259.png",
+          "source": "6a356f486b1b46dfbe1377e2c5e580c4-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "9172568fe3794bae9a8cd6e825344745-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1675351313623,
+      "stop": 1675351323855
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1675351313622,
+  "stop": 1675351323859
+}

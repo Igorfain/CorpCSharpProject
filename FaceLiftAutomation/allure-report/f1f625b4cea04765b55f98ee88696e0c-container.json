@@ -1,0 +1,44 @@
+{
+  "uuid": "c925b50c-39be-4bd5-8c47-1beabb80f479-tc-0-1000",
+  "name": "LsportsAutomation.Tests.QuarterBack.MarketsPageMainSearchTest.MainSearchByMarketName",
+  "children": [
+    "67b10411-b235-4549-be6f-418ee6c0c0a4-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1675347419577,
+      "stop": 1675347419577
+    }
+  ],
+  "afters": [
+    {
+      "name": "CloseBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1675347419578,
+      "stop": 1675347419578
+    }
+  ],
+  "links": [],
+  "start": 1675347408629,
+  "stop": 1675347419618
+}

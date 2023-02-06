@@ -1,0 +1,13 @@
+{
+  "MyConfig": {
+    "ApplicationName": "MyApp",
+    "Version": "1.0.0"
+  },
+  "AppSettings": {
+    "BaseURL": "https://quarterback.dev.lsports.cloud/",
+    "userName": "admin",
+    "password": "Aa12345!"
+
+  }
+
+}

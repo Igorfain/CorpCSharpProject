@@ -1,0 +1,81 @@
+{
+  "uuid": "5ef39809-50ab-4bd3-9a82-df6994070ab1-tr-0-1001",
+  "historyId": "LsportsAutomation.Tests.QuarterBack.MarketsPageMainSearchTest.MainSearchByMarketName",
+  "fullName": "LsportsAutomation.Tests.QuarterBack.MarketsPageMainSearchTest.MainSearchByMarketName",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "13"
+    },
+    {
+      "name": "host",
+      "value": "IGORF-LSPORTS"
+    },
+    {
+      "name": "package",
+      "value": "LsportsAutomation.Tests.QuarterBack"
+    },
+    {
+      "name": "testMethod",
+      "value": "MainSearchByMarketName"
+    },
+    {
+      "name": "testClass",
+      "value": "MarketsPageMainSearchTest"
+    },
+    {
+      "name": "tag",
+      "value": "Markets"
+    },
+    {
+      "name": "tag",
+      "value": "Quarter Back"
+    }
+  ],
+  "links": [],
+  "name": "Validate Main Search in Markets",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  String lengths are both 48. Strings differ at index 0.\r\n  Expected: \"System.Collections.Generic.List`1[System.String]\"\r\n  But was:  \"ID\\r\\nMarket Name\\r\\nMarket Family\\r\\nBet Group\\r\\nStage\"\r\n  -----------^\r\n",
+    "trace": "   at LsportsAutomation.Components.QuarterBack.PTableComponent.GetTableHeaderElements(List`1 headerElements) in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Components\\QuarterBack\\PTableComponent.cs:line 28\r\n   at LsportsAutomation.Tests.QuarterBack.MarketsPageMainSearchTest.MainSearchByMarketName() in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Tests\\QuarterBack\\MarketsPageMainSearchTest.cs:line 46\r\n"
+  },
+  "stage": "finished",
+  "description": "Validate Main Search in Markets",
+  "steps": [
+    {
+      "name": "MainSearchByMarketName",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  String lengths are both 48. Strings differ at index 0.\r\n  Expected: \"System.Collections.Generic.List`1[System.String]\"\r\n  But was:  \"ID\\r\\nMarket Name\\r\\nMarket Family\\r\\nBet Group\\r\\nStage\"\r\n  -----------^\r\n",
+        "trace": "   at LsportsAutomation.Components.QuarterBack.PTableComponent.GetTableHeaderElements(List`1 headerElements) in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Components\\QuarterBack\\PTableComponent.cs:line 28\r\n   at LsportsAutomation.Tests.QuarterBack.MarketsPageMainSearchTest.MainSearchByMarketName() in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Tests\\QuarterBack\\MarketsPageMainSearchTest.cs:line 46\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "MainSearchByMarketName_screenshot_638111890537430219.png",
+          "source": "89950525bcfc4738b93407e08c847ab4-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "519dbe7b7e4e45628662e987cd7c8e44-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1675584878651,
+      "stop": 1675585053786
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1675584878651,
+  "stop": 1675585053790
+}

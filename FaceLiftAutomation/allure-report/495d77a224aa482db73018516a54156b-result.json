@@ -1,0 +1,81 @@
+{
+  "uuid": "a1ba9141-ad73-401c-87dc-c4773e99b32e-tr-0-1001",
+  "historyId": "LsportsAutomation.Tests.QuarterBack.MarketsPageMainSearchTest.MainSearchByMarketName",
+  "fullName": "LsportsAutomation.Tests.QuarterBack.MarketsPageMainSearchTest.MainSearchByMarketName",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IGORF-LSPORTS"
+    },
+    {
+      "name": "package",
+      "value": "LsportsAutomation.Tests.QuarterBack"
+    },
+    {
+      "name": "testMethod",
+      "value": "MainSearchByMarketName"
+    },
+    {
+      "name": "testClass",
+      "value": "MarketsPageMainSearchTest"
+    },
+    {
+      "name": "tag",
+      "value": "Markets"
+    },
+    {
+      "name": "tag",
+      "value": "Quarter Back"
+    }
+  ],
+  "links": [],
+  "name": "Validate Main Search in Markets",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.ArgumentOutOfRangeException : Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')",
+    "trace": "   at System.Collections.Generic.List`1.get_Item(Int32 index)\r\n   at System.Collections.ObjectModel.ReadOnlyCollection`1.System.Collections.Generic.IList<T>.get_Item(Int32 index)\r\n   at LsportsAutomation.Components.QuarterBack.PTableComponent.GetTableHeaderElements(List`1 headerElements) in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Components\\QuarterBack\\PTableComponent.cs:line 50\r\n   at LsportsAutomation.Tests.QuarterBack.MarketsPageMainSearchTest.MainSearchByMarketName() in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Tests\\QuarterBack\\MarketsPageMainSearchTest.cs:line 46"
+  },
+  "stage": "finished",
+  "description": "Validate Main Search in Markets",
+  "steps": [
+    {
+      "name": "MainSearchByMarketName",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.ArgumentOutOfRangeException : Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')",
+        "trace": "   at System.Collections.Generic.List`1.get_Item(Int32 index)\r\n   at System.Collections.ObjectModel.ReadOnlyCollection`1.System.Collections.Generic.IList<T>.get_Item(Int32 index)\r\n   at LsportsAutomation.Components.QuarterBack.PTableComponent.GetTableHeaderElements(List`1 headerElements) in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Components\\QuarterBack\\PTableComponent.cs:line 50\r\n   at LsportsAutomation.Tests.QuarterBack.MarketsPageMainSearchTest.MainSearchByMarketName() in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Tests\\QuarterBack\\MarketsPageMainSearchTest.cs:line 46"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "MainSearchByMarketName_screenshot_638111902166814440.png",
+          "source": "c380e8a5c4e5441a895c260aee479a52-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "303b4846a421459c85be4db04003a306-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1675586203371,
+      "stop": 1675586216715
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1675586203371,
+  "stop": 1675586216717
+}

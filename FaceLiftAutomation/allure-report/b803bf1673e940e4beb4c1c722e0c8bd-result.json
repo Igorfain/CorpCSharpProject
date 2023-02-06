@@ -1,0 +1,63 @@
+{
+  "uuid": "936a4866-eab9-4d14-83f9-ae2bff8b2705-tr-0-1001",
+  "historyId": "LsportsAutomation.Tests.QuarterBack.MarketsPageMainSearchTest.MainSearchByMarketName",
+  "fullName": "LsportsAutomation.Tests.QuarterBack.MarketsPageMainSearchTest.MainSearchByMarketName",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IGORF-LSPORTS"
+    },
+    {
+      "name": "package",
+      "value": "LsportsAutomation.Tests.QuarterBack"
+    },
+    {
+      "name": "testMethod",
+      "value": "MainSearchByMarketName"
+    },
+    {
+      "name": "testClass",
+      "value": "MarketsPageMainSearchTest"
+    },
+    {
+      "name": "tag",
+      "value": "Markets"
+    },
+    {
+      "name": "tag",
+      "value": "Quarter Back"
+    }
+  ],
+  "links": [],
+  "name": "Validate Main Search in Markets",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.ArgumentNullException : Argument 'url' cannot be null. (Parameter 'value')",
+    "trace": "   at OpenQA.Selenium.WebDriver.set_Url(String value)\r\n   at OpenQA.Selenium.Navigator.GoToUrl(String url)\r\n   at LsportsAutomation.Pages.QuarterBack.LoginPageQB.LoginToQarterBack(String username, String password, String pageURL) in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Pages\\QuarterBack\\LoginPageQB.cs:line 26\r\n   at LsportsAutomation.Tests.QuarterBack.MarketsPageMainSearchTest.MainSearchByMarketName() in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Tests\\QuarterBack\\MarketsPageMainSearchTest.cs:line 40"
+  },
+  "stage": "finished",
+  "description": "Validate Main Search in Markets",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "MainSearchByMarketName_screenshot_638111988570807598.png",
+      "source": "ffdb2b362c8748dfaf3cb9a06acc14a4-attachment.png",
+      "type": "image/png"
+    },
+    {
+      "name": "Console Output",
+      "source": "a921b1852ba94e6aa0f20ea9addd7127-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1675594855135,
+  "stop": 1675594857112
+}

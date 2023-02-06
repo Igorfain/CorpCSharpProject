@@ -1,0 +1,2 @@
+[14:41:03] Step 1 - Login and validate on landing page
+

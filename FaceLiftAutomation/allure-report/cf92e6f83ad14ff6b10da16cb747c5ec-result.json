@@ -1,0 +1,63 @@
+{
+  "uuid": "f9f7fef1-50b2-46ad-8ae1-c1f39459aa2d-tr-0-1001",
+  "historyId": "LsportsAutomation.Tests.QuarterBack.MarketNameHeaderFilterTest.ValidateHeaderMarketNameFilter",
+  "fullName": "LsportsAutomation.Tests.QuarterBack.MarketNameHeaderFilterTest.ValidateHeaderMarketNameFilter",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IGORF-LSPORTS"
+    },
+    {
+      "name": "package",
+      "value": "LsportsAutomation.Tests.QuarterBack"
+    },
+    {
+      "name": "testMethod",
+      "value": "ValidateHeaderMarketNameFilter"
+    },
+    {
+      "name": "testClass",
+      "value": "MarketNameHeaderFilterTest"
+    },
+    {
+      "name": "tag",
+      "value": "Markets"
+    },
+    {
+      "name": "tag",
+      "value": "Quarter Back"
+    }
+  ],
+  "links": [],
+  "name": "Validate Main Search in Markets",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 20 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"tag name\",\"selector\":\"//p-columnfilter[1]\"}\n  (Session info: headless chrome=109.0.5414.120)",
+    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at LsportsAutomation.Infra.ActionBot.WaitForElementClickable(WebDriverWait Wait, By elementBy) in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Infra\\ActionBot.cs:line 21\r\n   at LsportsAutomation.Components.QuarterBack.PTableComponent.SelectMarketNameFilter() in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Components\\QuarterBack\\PTableComponent.cs:line 17\r\n   at LsportsAutomation.Tests.QuarterBack.MarketNameHeaderFilterTest.ValidateHeaderMarketNameFilter() in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Tests\\QuarterBack\\MarketNameHeaderFilterTest.cs:line 37\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass6_0.<ElementToBeClickable>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)"
+  },
+  "stage": "finished",
+  "description": "Validate Main Search in Markets",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "ValidateHeaderMarketNameFilter_screenshot_638112147084028756.png",
+      "source": "abc4553e50cf4c169d2a39aab7a1cd63-attachment.png",
+      "type": "image/png"
+    },
+    {
+      "name": "Console Output",
+      "source": "7058620737f64de1bc796b2173db6a99-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1675610677058,
+  "stop": 1675610708435
+}

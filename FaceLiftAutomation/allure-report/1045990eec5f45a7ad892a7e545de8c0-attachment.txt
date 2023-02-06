@@ -1,0 +1,8 @@
+[09:55:18] Step - 1 Login to Quarter Back
+
+[09:55:23] Step - 2 Navigate to Market Editor page
+
+[09:55:24] Step - 3 Search By Market Name : Most Run Outs
+
+[09:55:28] Step - 4 Verify Search BY Market Name : Most Run Outs
+

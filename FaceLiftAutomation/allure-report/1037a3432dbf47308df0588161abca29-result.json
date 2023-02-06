@@ -1,0 +1,57 @@
+{
+  "uuid": "32928ba9-f6fe-484c-a0a7-eeeeb91f06ce-tr-0-1001",
+  "historyId": "LsportsAutomation.Tests.QuarterBack.MarketNameHeaderFilterTest.ValidateHeaderMarketNameFilter",
+  "fullName": "LsportsAutomation.Tests.QuarterBack.MarketNameHeaderFilterTest.ValidateHeaderMarketNameFilter",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IGORF-LSPORTS"
+    },
+    {
+      "name": "package",
+      "value": "LsportsAutomation.Tests.QuarterBack"
+    },
+    {
+      "name": "testMethod",
+      "value": "ValidateHeaderMarketNameFilter"
+    },
+    {
+      "name": "testClass",
+      "value": "MarketNameHeaderFilterTest"
+    },
+    {
+      "name": "tag",
+      "value": "Markets"
+    },
+    {
+      "name": "tag",
+      "value": "Quarter Back"
+    }
+  ],
+  "links": [],
+  "name": "Validate Main Search in Markets",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "ValidateHeaderMarketNameFilter"
+  },
+  "stage": "finished",
+  "description": "Validate Main Search in Markets",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "b7745e45f0884ff2a01ae1da6c84ab8b-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1675667658520,
+  "stop": 1675667677852
+}

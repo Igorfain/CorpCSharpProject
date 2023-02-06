@@ -1,0 +1,58 @@
+{
+  "uuid": "800131d0-b147-4b3b-91d6-0d00d78fa8d8-tr-0-1001",
+  "historyId": "LsportsAutomation.Tests.QuarterBack.MarketsPageMainSearchTest.MainSearchByMarketName",
+  "fullName": "LsportsAutomation.Tests.QuarterBack.MarketsPageMainSearchTest.MainSearchByMarketName",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IGORF-LSPORTS"
+    },
+    {
+      "name": "package",
+      "value": "LsportsAutomation.Tests.QuarterBack"
+    },
+    {
+      "name": "testMethod",
+      "value": "MainSearchByMarketName"
+    },
+    {
+      "name": "testClass",
+      "value": "MarketsPageMainSearchTest"
+    },
+    {
+      "name": "tag",
+      "value": "Markets"
+    },
+    {
+      "name": "tag",
+      "value": "Quarter Back"
+    }
+  ],
+  "links": [],
+  "name": "Validate Main Search in Markets",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  String lengths are both 48. Strings differ at index 0.\r\n  Expected: \"System.Collections.Generic.List`1[System.String]\"\r\n  But was:  \"ID\\r\\nMarket Name\\r\\nMarket Family\\r\\nBet Group\\r\\nStage\"\r\n  -----------^\r\n\r\nTearDown : System.ArgumentNullException : Value cannot be null. (Parameter 'key')",
+    "trace": "   at LsportsAutomation.Components.QuarterBack.PTableComponent.GetTableHeaderElements(List`1 headerElements) in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Components\\QuarterBack\\PTableComponent.cs:line 29\r\n   at LsportsAutomation.Tests.QuarterBack.MarketsPageMainSearchTest.MainSearchByMarketName() in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Tests\\QuarterBack\\MarketsPageMainSearchTest.cs:line 46\r\n\r\n--TearDown\r\n   at System.ThrowHelper.ThrowArgumentNullException(String name)\r\n   at System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)\r\n   at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)\r\n   at Allure.Commons.Storage.AllureStorage.Get[T](String uuid)\r\n   at Allure.Commons.AllureLifecycle.AddAttachment(String name, String type, Byte[] content, String fileExtension)\r\n   at Allure.Commons.AllureLifecycle.AddAttachment(String name, String type, String path)\r\n   at LsportsAutomation.Tests.BaseTest.CloseBrowser() in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Tests\\BaseTest.cs:line 38"
+  },
+  "stage": "finished",
+  "description": "Validate Main Search in Markets",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "bf4c3edae2844a52abc17b49c39f9533-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1675588640632,
+  "stop": 1675588657957
+}

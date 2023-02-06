@@ -1,0 +1,85 @@
+{
+  "uuid": "876ed36a-3bb9-4c1e-9b11-3233fcbfc4d5-tr-0-1001",
+  "historyId": "FaceLiftAutomation.Tests.MainSearchOfReportPageTest.ValidateMainSearchInReportPage",
+  "fullName": "FaceLiftAutomation.Tests.MainSearchOfReportPageTest.ValidateMainSearchInReportPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IGORF-LSPORTS"
+    },
+    {
+      "name": "package",
+      "value": "FaceLiftAutomation.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "ValidateMainSearchInReportPage"
+    },
+    {
+      "name": "testClass",
+      "value": "MainSearchOfReportPageTest"
+    },
+    {
+      "name": "tag",
+      "value": "Reports page"
+    },
+    {
+      "name": "tag",
+      "value": "UI"
+    },
+    {
+      "name": "suite",
+      "value": "Suite"
+    }
+  ],
+  "links": [],
+  "name": "Validate Main Search in Report Page",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 20 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name =\"passwordss\"]\"}\n  (Session info: headless chrome=109.0.5414.120)",
+    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at FaceLiftAutomation.Infra.ActionBot.WaitForElementVisible(WebDriverWait Wait, By elementBy) in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Infra\\ActionBot.cs:line 17\r\n   at FaceLiftAutomation.Pages.LoginPage.LoginFaceLift(String pageURL, String userEmail, String password) in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Pages\\LoginPage.cs:line 23\r\n   at FaceLiftAutomation.Tests.MainSearchOfReportPageTest.ValidateMainSearchInReportPage() in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Tests\\MainSearchOfReportPageTest.cs:line 34\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass3_0.<ElementIsVisible>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)"
+  },
+  "stage": "finished",
+  "description": "Validate main search in report page",
+  "steps": [
+    {
+      "name": "ValidateMainSearchInReportPage",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 20 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name =\"passwordss\"]\"}\n  (Session info: headless chrome=109.0.5414.120)",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at FaceLiftAutomation.Infra.ActionBot.WaitForElementVisible(WebDriverWait Wait, By elementBy) in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Infra\\ActionBot.cs:line 17\r\n   at FaceLiftAutomation.Pages.LoginPage.LoginFaceLift(String pageURL, String userEmail, String password) in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Pages\\LoginPage.cs:line 23\r\n   at FaceLiftAutomation.Tests.MainSearchOfReportPageTest.ValidateMainSearchInReportPage() in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Tests\\MainSearchOfReportPageTest.cs:line 34\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass3_0.<ElementIsVisible>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "ValidateMainSearchInReportPage_screenshot_638108580192872727.png",
+          "source": "efe25086500a4e0badfec0b18751fc45-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "e2235dfb54a24ca7b6a8974f1560c6b2-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1675253988564,
+      "stop": 1675254019327
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1675253988564,
+  "stop": 1675254019330
+}

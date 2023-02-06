@@ -1,0 +1,13 @@
+[17:29:32] Step - 1 Login to Quarter Back
+
+[17:29:36] Step - 2 Navigate to Market Editor page
+
+[17:29:37] Step - 3 Search By Market Name : Most Run Outs
+
+[17:29:41] Step - 4 Verify Search BY Market Name : Most Run Outs
+
+Header elements are: ID
+Market Name
+Market Family
+Bet Group
+Stage

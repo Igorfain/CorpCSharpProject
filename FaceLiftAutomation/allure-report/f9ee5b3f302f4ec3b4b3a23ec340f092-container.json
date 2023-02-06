@@ -1,0 +1,44 @@
+{
+  "uuid": "ede5beb6-913b-4c97-b947-dc7693bf75fc-tc-0-1000",
+  "name": "FaceLiftAutomation.Tests.QuarterBack.MarketsPageMainSearchTest.MainSearch1X2",
+  "children": [
+    "9ee01e5f-740d-4266-b347-ad762ca88b12-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1675335476615,
+      "stop": 1675335476615
+    }
+  ],
+  "afters": [
+    {
+      "name": "CloseBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1675335476616,
+      "stop": 1675335476616
+    }
+  ],
+  "links": [],
+  "start": 1675335470934,
+  "stop": 1675335476634
+}

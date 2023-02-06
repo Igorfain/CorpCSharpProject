@@ -1,0 +1,46 @@
+{
+  "uuid": "6df73888-1573-4bf7-a3a2-16a125f40478-tc-0-1000",
+  "name": "FaceLiftAutomation.Tests.MainSearchOfReportPageTest.ValidateMainSearchInReportPage",
+  "children": [
+    "79c58c87-70a4-4859-a591-33c0b6b337c2-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1675254456789,
+      "stop": 1675254456789
+    }
+  ],
+  "afters": [
+    {
+      "name": "CloseBrowser",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 20 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name =\"passwordss\"]\"}\n  (Session info: headless chrome=109.0.5414.120)\r\nTearDown : System.ObjectDisposedException : Cannot access a disposed object.\r\nObject name: 'System.Net.Http.HttpClient'.",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at FaceLiftAutomation.Infra.ActionBot.WaitForElementVisible(WebDriverWait Wait, By elementBy) in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Infra\\ActionBot.cs:line 17\r\n   at FaceLiftAutomation.Pages.LoginPage.LoginFaceLift(String pageURL, String userEmail, String password) in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Pages\\LoginPage.cs:line 23\r\n   at FaceLiftAutomation.Tests.MainSearchOfReportPageTest.ValidateMainSearchInReportPage() in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Tests\\MainSearchOfReportPageTest.cs:line 34\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass3_0.<ElementIsVisible>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n--TearDown\r\n   at System.Net.Http.HttpClient.CheckDisposed()\r\n   at System.Net.Http.HttpClient.CheckRequestBeforeSend(HttpRequestMessage request)\r\n   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.Close()\r\n   at FaceLiftAutomation.Tests.BaseTest.CloseBrowser() in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Tests\\BaseTest.cs:line 45"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1675254456789,
+      "stop": 1675254456789
+    }
+  ],
+  "links": [],
+  "start": 1675254429815,
+  "stop": 1675254456804
+}

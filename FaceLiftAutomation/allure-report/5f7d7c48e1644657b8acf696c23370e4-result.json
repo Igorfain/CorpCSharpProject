@@ -1,0 +1,81 @@
+{
+  "uuid": "559a2ac5-18d5-4fb7-a51d-dc6c3081acc5-tr-0-1001",
+  "historyId": "LsportsAutomation.Tests.QuarterBack.MarketsPageMainSearchTest.MainSearchByMarketName",
+  "fullName": "LsportsAutomation.Tests.QuarterBack.MarketsPageMainSearchTest.MainSearchByMarketName",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "13"
+    },
+    {
+      "name": "host",
+      "value": "IGORF-LSPORTS"
+    },
+    {
+      "name": "package",
+      "value": "LsportsAutomation.Tests.QuarterBack"
+    },
+    {
+      "name": "testMethod",
+      "value": "MainSearchByMarketName"
+    },
+    {
+      "name": "testClass",
+      "value": "MarketsPageMainSearchTest"
+    },
+    {
+      "name": "tag",
+      "value": "Markets"
+    },
+    {
+      "name": "tag",
+      "value": "Quarter Back"
+    }
+  ],
+  "links": [],
+  "name": "Validate Main Search in Markets",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input _ngcontent-yne-c79=\"\" id=\"float-input\" type=\"text\" pinputtext=\"\" class=\"p-inputtext p-component p-element p-inputtext-md ng-untouched ng-pristine ng-valid\" placeholder=\"\"> is not clickable at point (1001, 38). Other element would receive the click: <div _ngcontent-yne-c72=\"\" class=\"ngx-spinner-overlay ng-tns-c72-1 ng-trigger ng-trigger-fadeIn ng-star-inserted\" style=\"background-color: rgba(0, 0, 0, 0.8); z-index: 99999; position: fixed; opacity: 1;\">...</div>\n  (Session info: chrome=109.0.5414.120)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at LsportsAutomation.Infra.ActionBot.WaitAndClick(WebDriverWait Wait, By elementBy) in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Infra\\ActionBot.cs:line 26\r\n   at LsportsAutomation.Components.AppTopMenuComponent.InsertTextSearchFieldClickSearch(WebDriverWait Wait, String key) in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Components\\AppTopMenuComponent.cs:line 29\r\n   at LsportsAutomation.Tests.QuarterBack.MarketsPageMainSearchTest.MainSearchByMarketName() in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Tests\\QuarterBack\\MarketsPageMainSearchTest.cs:line 43"
+  },
+  "stage": "finished",
+  "description": "Validate Main Search in Markets",
+  "steps": [
+    {
+      "name": "MainSearchByMarketName",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input _ngcontent-yne-c79=\"\" id=\"float-input\" type=\"text\" pinputtext=\"\" class=\"p-inputtext p-component p-element p-inputtext-md ng-untouched ng-pristine ng-valid\" placeholder=\"\"> is not clickable at point (1001, 38). Other element would receive the click: <div _ngcontent-yne-c72=\"\" class=\"ngx-spinner-overlay ng-tns-c72-1 ng-trigger ng-trigger-fadeIn ng-star-inserted\" style=\"background-color: rgba(0, 0, 0, 0.8); z-index: 99999; position: fixed; opacity: 1;\">...</div>\n  (Session info: chrome=109.0.5414.120)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at LsportsAutomation.Infra.ActionBot.WaitAndClick(WebDriverWait Wait, By elementBy) in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Infra\\ActionBot.cs:line 26\r\n   at LsportsAutomation.Components.AppTopMenuComponent.InsertTextSearchFieldClickSearch(WebDriverWait Wait, String key) in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Components\\AppTopMenuComponent.cs:line 29\r\n   at LsportsAutomation.Tests.QuarterBack.MarketsPageMainSearchTest.MainSearchByMarketName() in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Tests\\QuarterBack\\MarketsPageMainSearchTest.cs:line 43"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "MainSearchByMarketName_screenshot_638111877016173779.png",
+          "source": "6ae8ef3f501d471bb8c53061dc26b4b2-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "fda119cbb4504a16b8aa96090e5a501a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1675583686047,
+      "stop": 1675583701725
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1675583686046,
+  "stop": 1675583701730
+}

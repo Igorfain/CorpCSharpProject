@@ -1,0 +1,44 @@
+{
+  "uuid": "0f8770e5-7326-40a8-bf65-e094676b6dce-tc-0-1002",
+  "name": "LsportsAutomation.Tests.FaceLift.MainSearchOfReportPageTest.ValidateMainSearchInReportPage",
+  "children": [
+    "d9cf0f27-550e-4217-bd5e-1be8a1de9f48-tr-0-1003"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1675338902867,
+      "stop": 1675338902867
+    }
+  ],
+  "afters": [
+    {
+      "name": "CloseBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1675338902867,
+      "stop": 1675338902867
+    }
+  ],
+  "links": [],
+  "start": 1675338888274,
+  "stop": 1675338902880
+}

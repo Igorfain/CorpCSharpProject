@@ -1,0 +1,63 @@
+{
+  "uuid": "6051fe66-ac75-4670-ac45-c05cb8891f65-tr-0-1001",
+  "historyId": "LsportsAutomation.Tests.QuarterBack.MarketNameHeaderFilterTest.ValidateHeaderMarketNameFilter",
+  "fullName": "LsportsAutomation.Tests.QuarterBack.MarketNameHeaderFilterTest.ValidateHeaderMarketNameFilter",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IGORF-LSPORTS"
+    },
+    {
+      "name": "package",
+      "value": "LsportsAutomation.Tests.QuarterBack"
+    },
+    {
+      "name": "testMethod",
+      "value": "ValidateHeaderMarketNameFilter"
+    },
+    {
+      "name": "testClass",
+      "value": "MarketNameHeaderFilterTest"
+    },
+    {
+      "name": "tag",
+      "value": "Markets"
+    },
+    {
+      "name": "tag",
+      "value": "Quarter Back"
+    }
+  ],
+  "links": [],
+  "name": "Validate Main Search in Markets",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.ArgumentNullException : Argument 'url' cannot be null. (Parameter 'value')",
+    "trace": "   at OpenQA.Selenium.WebDriver.set_Url(String value)\r\n   at OpenQA.Selenium.Navigator.GoToUrl(String url)\r\n   at LsportsAutomation.Pages.QuarterBack.LoginPageQB.LoginToQarterBack(String username, String password, String pageURL) in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Pages\\QuarterBack\\LoginPageQB.cs:line 26\r\n   at LsportsAutomation.Tests.QuarterBack.MarketNameHeaderFilterTest.ValidateHeaderMarketNameFilter() in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Tests\\QuarterBack\\MarketNameHeaderFilterTest.cs:line 36"
+  },
+  "stage": "finished",
+  "description": "Validate Main Search in Markets",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "ValidateHeaderMarketNameFilter_screenshot_638112749255561188.png",
+      "source": "f00143eb37e547058f911e8b520c2003-attachment.png",
+      "type": "image/png"
+    },
+    {
+      "name": "Console Output",
+      "source": "65617e950eeb4c6ea5dcbf84ac3ad635-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1675670923882,
+  "stop": 1675670925659
+}

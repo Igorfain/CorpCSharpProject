@@ -1,0 +1,73 @@
+{
+  "uuid": "1576f260-028d-46df-b96e-d30c8b18cd07-tr-0-1001",
+  "historyId": "FaceLiftAutomation.Tests.QuarterBack.MarketsPageMainSearchTest.MainSearch1X2",
+  "fullName": "FaceLiftAutomation.Tests.QuarterBack.MarketsPageMainSearchTest.MainSearch1X2",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IGORF-LSPORTS"
+    },
+    {
+      "name": "package",
+      "value": "FaceLiftAutomation.Tests.QuarterBack"
+    },
+    {
+      "name": "testMethod",
+      "value": "MainSearch1X2"
+    },
+    {
+      "name": "testClass",
+      "value": "MarketsPageMainSearchTest"
+    },
+    {
+      "name": "tag",
+      "value": "Reports page"
+    },
+    {
+      "name": "tag",
+      "value": "UI"
+    }
+  ],
+  "links": [],
+  "name": "Validate Main Search in Report Page",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "MainSearch1X2"
+  },
+  "stage": "finished",
+  "description": "Validate main search in report page",
+  "steps": [
+    {
+      "name": "MainSearch1X2",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "3fccf8b599a44bf980c44e453a203c5c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1675335066385,
+      "stop": 1675335071085
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1675335066385,
+  "stop": 1675335071087
+}

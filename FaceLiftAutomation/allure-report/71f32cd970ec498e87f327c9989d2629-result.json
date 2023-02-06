@@ -1,0 +1,73 @@
+{
+  "uuid": "6fb74ac4-6074-4f51-afc8-ff6d9037e263-tr-0-1001",
+  "historyId": "FaceLiftAutomation.Tests.FaceLift.MainSearchOfReportPageTest.ValidateMainSearchInReportPage",
+  "fullName": "FaceLiftAutomation.Tests.FaceLift.MainSearchOfReportPageTest.ValidateMainSearchInReportPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IGORF-LSPORTS"
+    },
+    {
+      "name": "package",
+      "value": "FaceLiftAutomation.Tests.FaceLift"
+    },
+    {
+      "name": "testMethod",
+      "value": "ValidateMainSearchInReportPage"
+    },
+    {
+      "name": "testClass",
+      "value": "MainSearchOfReportPageTest"
+    },
+    {
+      "name": "tag",
+      "value": "Reports page"
+    },
+    {
+      "name": "tag",
+      "value": "UI"
+    }
+  ],
+  "links": [],
+  "name": "Validate Main Search in Report Page",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "ValidateMainSearchInReportPage"
+  },
+  "stage": "finished",
+  "description": "Validate main search in report page",
+  "steps": [
+    {
+      "name": "ValidateMainSearchInReportPage",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "492a9d3456634d89a5e7924191638dcf-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1675328578852,
+      "stop": 1675328598292
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1675328578851,
+  "stop": 1675328598295
+}

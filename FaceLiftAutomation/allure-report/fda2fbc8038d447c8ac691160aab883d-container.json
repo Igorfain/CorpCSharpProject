@@ -1,0 +1,44 @@
+{
+  "uuid": "29b84167-efdc-441b-84d5-4984953e4d9f-tc-0-1000",
+  "name": "FaceLiftAutomation.Tests.MainSearchOfReportPageTest.ValidateMainSearchInReportPage",
+  "children": [
+    "60d74781-bf39-4d75-ac09-ccf01c4fe1d3-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1675257051508,
+      "stop": 1675257051508
+    }
+  ],
+  "afters": [
+    {
+      "name": "CloseBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1675257051508,
+      "stop": 1675257051508
+    }
+  ],
+  "links": [],
+  "start": 1675257015367,
+  "stop": 1675257051523
+}

@@ -1,0 +1,6 @@
+[17:24:41] Step - 1 Login to Quarter Back
+
+[17:24:45] Step - 2 Navigate to Market Editor page
+
+[17:24:48] Step - 3 Click the filter button
+

@@ -1,0 +1,63 @@
+{
+  "uuid": "7f40574c-fd87-49bb-aaf7-91cea9204ebb-tr-0-1001",
+  "historyId": "LsportsAutomation.Tests.QuarterBack.MarketsPageMainSearchTest.MainSearchByMarketName",
+  "fullName": "LsportsAutomation.Tests.QuarterBack.MarketsPageMainSearchTest.MainSearchByMarketName",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IGORF-LSPORTS"
+    },
+    {
+      "name": "package",
+      "value": "LsportsAutomation.Tests.QuarterBack"
+    },
+    {
+      "name": "testMethod",
+      "value": "MainSearchByMarketName"
+    },
+    {
+      "name": "testClass",
+      "value": "MarketsPageMainSearchTest"
+    },
+    {
+      "name": "tag",
+      "value": "Markets"
+    },
+    {
+      "name": "tag",
+      "value": "Quarter Back"
+    }
+  ],
+  "links": [],
+  "name": "Validate Main Search in Markets",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.ArgumentNullException : text cannot be null (Parameter 'text')",
+    "trace": "   at OpenQA.Selenium.WebElement.SendKeys(String text)\r\n   at LsportsAutomation.Infra.ActionBot.WaitAndSendKey(WebDriverWait Wait, By elementBy, String key) in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Infra\\ActionBot.cs:line 31\r\n   at LsportsAutomation.Components.QuarterBack.FormComponent.UserNameInput(String key) in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Components\\QuarterBack\\FormComponent.cs:line 15\r\n   at LsportsAutomation.Pages.QuarterBack.LoginPageQB.LoginToQarterBack(String username, String password, String pageURL) in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Pages\\QuarterBack\\LoginPageQB.cs:line 28\r\n   at LsportsAutomation.Tests.QuarterBack.MarketsPageMainSearchTest.MainSearchByMarketName() in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Tests\\QuarterBack\\MarketsPageMainSearchTest.cs:line 49"
+  },
+  "stage": "finished",
+  "description": "Validate Main Search in Markets",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "MainSearchByMarketName_screenshot_638112103957787052.png",
+      "source": "810e7d363fbc4a12b6dabfc9ae0d8b06-attachment.png",
+      "type": "image/png"
+    },
+    {
+      "name": "Console Output",
+      "source": "75a190b460ad48f8bcf5cbfcd6cc6c64-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1675606391475,
+  "stop": 1675606395817
+}

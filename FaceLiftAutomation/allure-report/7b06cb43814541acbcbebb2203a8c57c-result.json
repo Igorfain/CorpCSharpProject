@@ -1,0 +1,81 @@
+{
+  "uuid": "9a5c1629-6fc4-4abf-be8d-54062e5ccd72-tr-0-1001",
+  "historyId": "LsportsAutomation.Tests.QuarterBack.MarketsPageMainSearchTest.MainSearchByMarketName",
+  "fullName": "LsportsAutomation.Tests.QuarterBack.MarketsPageMainSearchTest.MainSearchByMarketName",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IGORF-LSPORTS"
+    },
+    {
+      "name": "package",
+      "value": "LsportsAutomation.Tests.QuarterBack"
+    },
+    {
+      "name": "testMethod",
+      "value": "MainSearchByMarketName"
+    },
+    {
+      "name": "testClass",
+      "value": "MarketsPageMainSearchTest"
+    },
+    {
+      "name": "tag",
+      "value": "Markets"
+    },
+    {
+      "name": "tag",
+      "value": "Quarter Back"
+    }
+  ],
+  "links": [],
+  "name": "Validate Main Search in Markets",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <i _ngcontent-gec-c79=\"\" class=\"pi pi-search\"></i> is not clickable at point (1206, 38). Other element would receive the click: <div _ngcontent-gec-c72=\"\" class=\"ngx-spinner-overlay ng-tns-c72-1 ng-trigger ng-trigger-fadeIn ng-star-inserted\" style=\"background-color: rgba(0, 0, 0, 0.8); z-index: 99999; position: fixed; opacity: 1;\">...</div>\n  (Session info: chrome=109.0.5414.120)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at LsportsAutomation.Infra.ActionBot.WaitAndClick(WebDriverWait Wait, By elementBy) in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Infra\\ActionBot.cs:line 26\r\n   at LsportsAutomation.Components.AppTopMenuComponent.InsertTextSearchFieldClickSearch(WebDriverWait Wait, String key) in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Components\\AppTopMenuComponent.cs:line 24\r\n   at LsportsAutomation.Tests.QuarterBack.MarketsPageMainSearchTest.MainSearchByMarketName() in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Tests\\QuarterBack\\MarketsPageMainSearchTest.cs:line 34"
+  },
+  "stage": "finished",
+  "description": "Validate Main Search in Markets",
+  "steps": [
+    {
+      "name": "MainSearchByMarketName",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <i _ngcontent-gec-c79=\"\" class=\"pi pi-search\"></i> is not clickable at point (1206, 38). Other element would receive the click: <div _ngcontent-gec-c72=\"\" class=\"ngx-spinner-overlay ng-tns-c72-1 ng-trigger ng-trigger-fadeIn ng-star-inserted\" style=\"background-color: rgba(0, 0, 0, 0.8); z-index: 99999; position: fixed; opacity: 1;\">...</div>\n  (Session info: chrome=109.0.5414.120)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at LsportsAutomation.Infra.ActionBot.WaitAndClick(WebDriverWait Wait, By elementBy) in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Infra\\ActionBot.cs:line 26\r\n   at LsportsAutomation.Components.AppTopMenuComponent.InsertTextSearchFieldClickSearch(WebDriverWait Wait, String key) in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Components\\AppTopMenuComponent.cs:line 24\r\n   at LsportsAutomation.Tests.QuarterBack.MarketsPageMainSearchTest.MainSearchByMarketName() in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Tests\\QuarterBack\\MarketsPageMainSearchTest.cs:line 34"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "MainSearchByMarketName_screenshot_638109492454172159.png",
+          "source": "5d63ccb56e9641f1a9b6b9099c66adb6-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "f89a0aeac5f442d1bc4bc3930dd383bb-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1675345237080,
+      "stop": 1675345245537
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1675345237079,
+  "stop": 1675345245540
+}

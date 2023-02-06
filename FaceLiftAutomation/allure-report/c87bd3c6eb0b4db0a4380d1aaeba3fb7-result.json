@@ -1,0 +1,80 @@
+{
+  "uuid": "2c475f44-5685-4a07-83fb-1eb80a4b82f2-tr-0-1001",
+  "historyId": "FaceLiftAutomation.Tests.MainSearchOfReportPageTest.ValidateMainSearchInReportPage",
+  "fullName": "FaceLiftAutomation.Tests.MainSearchOfReportPageTest.ValidateMainSearchInReportPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IGORF-LSPORTS"
+    },
+    {
+      "name": "package",
+      "value": "FaceLiftAutomation.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "ValidateMainSearchInReportPage"
+    },
+    {
+      "name": "testClass",
+      "value": "MainSearchOfReportPageTest"
+    },
+    {
+      "name": "tag",
+      "value": "Reports page"
+    },
+    {
+      "name": "tag",
+      "value": "UI"
+    },
+    {
+      "name": "suite",
+      "value": "Suite"
+    }
+  ],
+  "links": [],
+  "name": "Validate Main Search in Report Page",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 20 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name =\"passwordss\"]\"}\n  (Session info: headless chrome=109.0.5414.120)\r\nTearDown : System.UnauthorizedAccessException : Access to the path 'C:\\allure-screenshotsValidateMainSearchInReportPage_screenshot_638108589812314424.png' is denied.",
+    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at FaceLiftAutomation.Infra.ActionBot.WaitForElementVisible(WebDriverWait Wait, By elementBy) in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Infra\\ActionBot.cs:line 17\r\n   at FaceLiftAutomation.Pages.LoginPage.LoginFaceLift(String pageURL, String userEmail, String password) in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Pages\\LoginPage.cs:line 23\r\n   at FaceLiftAutomation.Tests.MainSearchOfReportPageTest.ValidateMainSearchInReportPage() in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Tests\\MainSearchOfReportPageTest.cs:line 34\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass3_0.<ElementIsVisible>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n--TearDown\r\n   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)\r\n   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)\r\n   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)\r\n   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)\r\n   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)\r\n   at System.IO.FileStream..ctor(String path, FileMode mode)\r\n   at OpenQA.Selenium.Screenshot.SaveAsFile(String fileName, ScreenshotImageFormat format)\r\n   at FaceLiftAutomation.Tests.BaseTest.CloseBrowser() in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Tests\\BaseTest.cs:line 38"
+  },
+  "stage": "finished",
+  "description": "\nCloseBrowser TearDown method failed\nValidate main search in report page",
+  "steps": [
+    {
+      "name": "ValidateMainSearchInReportPage",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 20 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name =\"passwordss\"]\"}\n  (Session info: headless chrome=109.0.5414.120)\r\nTearDown : System.UnauthorizedAccessException : Access to the path 'C:\\allure-screenshotsValidateMainSearchInReportPage_screenshot_638108589812314424.png' is denied.",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at FaceLiftAutomation.Infra.ActionBot.WaitForElementVisible(WebDriverWait Wait, By elementBy) in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Infra\\ActionBot.cs:line 17\r\n   at FaceLiftAutomation.Pages.LoginPage.LoginFaceLift(String pageURL, String userEmail, String password) in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Pages\\LoginPage.cs:line 23\r\n   at FaceLiftAutomation.Tests.MainSearchOfReportPageTest.ValidateMainSearchInReportPage() in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Tests\\MainSearchOfReportPageTest.cs:line 34\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass3_0.<ElementIsVisible>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n--TearDown\r\n   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)\r\n   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)\r\n   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)\r\n   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)\r\n   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)\r\n   at System.IO.FileStream..ctor(String path, FileMode mode)\r\n   at OpenQA.Selenium.Screenshot.SaveAsFile(String fileName, ScreenshotImageFormat format)\r\n   at FaceLiftAutomation.Tests.BaseTest.CloseBrowser() in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Tests\\BaseTest.cs:line 38"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "68ca5c0a011b4ce48c2b95022de1b233-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1675254954173,
+      "stop": 1675254981238
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1675254954173,
+  "stop": 1675254981241
+}

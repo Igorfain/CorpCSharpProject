@@ -1,0 +1,8 @@
+[09:14:23] Step - 1 Login to Quarter Back
+
+[09:14:28] Step - 2 Navigate to Market Editor page
+
+[09:14:30] Step - 3 Click the filter button
+
+[09:14:32] Step - 4 Select 1X2 market checkbox and Save
+

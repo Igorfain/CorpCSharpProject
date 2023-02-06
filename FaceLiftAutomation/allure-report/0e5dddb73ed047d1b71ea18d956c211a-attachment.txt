@@ -1,0 +1,4 @@
+[14:10:19] Step - 1 Login to Quarter Back
+
+[14:10:23] Step - 2 Navigate to Market Editor page
+

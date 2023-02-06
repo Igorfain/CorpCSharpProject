@@ -1,0 +1,81 @@
+{
+  "uuid": "951e1ffa-42d8-4ce1-8ae9-0b6bc5eb2700-tr-0-1001",
+  "historyId": "FaceLiftAutomation.Tests.MainSearchOfReportPageTest.ValidateMainSearchInReportPage",
+  "fullName": "FaceLiftAutomation.Tests.MainSearchOfReportPageTest.ValidateMainSearchInReportPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IGORF-LSPORTS"
+    },
+    {
+      "name": "package",
+      "value": "FaceLiftAutomation.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "ValidateMainSearchInReportPage"
+    },
+    {
+      "name": "testClass",
+      "value": "MainSearchOfReportPageTest"
+    },
+    {
+      "name": "tag",
+      "value": "Reports page"
+    },
+    {
+      "name": "tag",
+      "value": "UI"
+    }
+  ],
+  "links": [],
+  "name": "Validate Main Search in Report Page",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 20 seconds\r\n  ----> OpenQA.Selenium.InvalidSelectorException : invalid selector: Unable to locate an element with the xpath expression //i[contains(text(),'search'ss)] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//i[contains(text(),'search'ss)]' is not a valid XPath expression.\n  (Session info: headless chrome=109.0.5414.120)\r\nTearDown : System.ObjectDisposedException : Cannot access a disposed object.\r\nObject name: 'System.Net.Http.HttpClient'.",
+    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at FaceLiftAutomation.Infra.ActionBot.WaitAndClick(WebDriverWait Wait, By elementBy) in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Infra\\ActionBot.cs:line 26\r\n   at FaceLiftAutomation.Components.AppTopMenuComponent.InsertTextSearchFieldAndSearch(WebDriverWait Wait, String key) in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Components\\AppTopMenuComponent.cs:line 19\r\n   at FaceLiftAutomation.Tests.MainSearchOfReportPageTest.ValidateMainSearchInReportPage() in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Tests\\MainSearchOfReportPageTest.cs:line 43\r\n--InvalidSelectorException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass6_0.<ElementToBeClickable>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n--TearDown\r\n   at System.Net.Http.HttpClient.CheckDisposed()\r\n   at System.Net.Http.HttpClient.CheckRequestBeforeSend(HttpRequestMessage request)\r\n   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.Close()\r\n   at FaceLiftAutomation.Tests.BaseTest.CloseBrowser() in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Tests\\BaseTest.cs:line 45"
+  },
+  "stage": "finished",
+  "description": "\nCloseBrowser TearDown method failed\nValidate main search in report page",
+  "steps": [
+    {
+      "name": "ValidateMainSearchInReportPage",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 20 seconds\r\n  ----> OpenQA.Selenium.InvalidSelectorException : invalid selector: Unable to locate an element with the xpath expression //i[contains(text(),'search'ss)] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//i[contains(text(),'search'ss)]' is not a valid XPath expression.\n  (Session info: headless chrome=109.0.5414.120)\r\nTearDown : System.ObjectDisposedException : Cannot access a disposed object.\r\nObject name: 'System.Net.Http.HttpClient'.",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at FaceLiftAutomation.Infra.ActionBot.WaitAndClick(WebDriverWait Wait, By elementBy) in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Infra\\ActionBot.cs:line 26\r\n   at FaceLiftAutomation.Components.AppTopMenuComponent.InsertTextSearchFieldAndSearch(WebDriverWait Wait, String key) in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Components\\AppTopMenuComponent.cs:line 19\r\n   at FaceLiftAutomation.Tests.MainSearchOfReportPageTest.ValidateMainSearchInReportPage() in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Tests\\MainSearchOfReportPageTest.cs:line 43\r\n--InvalidSelectorException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass6_0.<ElementToBeClickable>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n--TearDown\r\n   at System.Net.Http.HttpClient.CheckDisposed()\r\n   at System.Net.Http.HttpClient.CheckRequestBeforeSend(HttpRequestMessage request)\r\n   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.Close()\r\n   at FaceLiftAutomation.Tests.BaseTest.CloseBrowser() in C:\\Automation\\FaceLiftAutomation\\FaceLiftAutomation\\Tests\\BaseTest.cs:line 45"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "ValidateMainSearchInReportPage_screenshot_638109306826066012.png",
+          "source": "d7a464ed88c84a12b74c9e2d884c524b-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "b70910632d834fc3b79510540e4cbd42-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1675326645408,
+      "stop": 1675326682657
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1675326645408,
+  "stop": 1675326682661
+}

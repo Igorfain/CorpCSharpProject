@@ -1,0 +1,12 @@
+{
+  "uuid": "50109fac-7fdd-4ff2-9782-ee14c9d07d2d-tc-0-1000",
+  "name": "LsportsAutomation.Tests.QuarterBack.MarketsPageMainSearchTest.MainSearchByMarketName",
+  "children": [
+    "920d653e-0058-4c33-95ba-edd4c1b1e11d-tr-0-1001"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1675593433876,
+  "stop": 1675593465836
+}

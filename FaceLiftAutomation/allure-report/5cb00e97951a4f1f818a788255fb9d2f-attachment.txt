@@ -1,0 +1,9 @@
+[16:44:32] Step - 1 Login to Quarter Back
+
+[16:44:35] Step - 2 Navigate to Market Editor page
+
+[16:44:37] Step - 3 Search By Market Name : Most Run Outs
+
+[16:44:42] Step - 4 Verify Search BY Market Name : Most Run Outs
+
+Results results in table  are : '770Most Run Outs1X21,2,X'
